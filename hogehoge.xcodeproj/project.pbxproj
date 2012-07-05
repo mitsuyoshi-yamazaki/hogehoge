@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CE4906115A6291D00FB2F90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE4906015A6291D00FB2F90 /* UIKit.framework */; };
+		2CE4906315A6291D00FB2F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE4906215A6291D00FB2F90 /* Foundation.framework */; };
+		2CE4906515A6291D00FB2F90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE4906415A6291D00FB2F90 /* CoreGraphics.framework */; };
+		2CE4906B15A6291D00FB2F90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4906915A6291D00FB2F90 /* InfoPlist.strings */; };
+		2CE4906D15A6291D00FB2F90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4906C15A6291D00FB2F90 /* main.m */; };
+		2CE4907115A6291D00FB2F90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4907015A6291D00FB2F90 /* AppDelegate.m */; };
+		2CE4907415A6291D00FB2F90 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4907215A6291D00FB2F90 /* MainStoryboard.storyboard */; };
+		2CE4907715A6291D00FB2F90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4907615A6291D00FB2F90 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CE4905C15A6291D00FB2F90 /* hogehoge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hogehoge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE4906015A6291D00FB2F90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CE4906215A6291D00FB2F90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CE4906415A6291D00FB2F90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CE4906815A6291D00FB2F90 /* hogehoge-Info.plist */ = {isa = PBXFileReference; path = "hogehoge-Info.plist"; sourceTree = "<group>"; };
+		2CE4906A15A6291D00FB2F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CE4906C15A6291D00FB2F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CE4906E15A6291D00FB2F90 /* hogehoge-Prefix.pch */ = {isa = PBXFileReference; path = "hogehoge-Prefix.pch"; sourceTree = "<group>"; };
+		2CE4906F15A6291D00FB2F90 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CE4907015A6291D00FB2F90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CE4907315A6291D00FB2F90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2CE4907515A6291D00FB2F90 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		2CE4907615A6291D00FB2F90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE4905915A6291D00FB2F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE4906115A6291D00FB2F90 /* UIKit.framework in Frameworks */,
+				2CE4906315A6291D00FB2F90 /* Foundation.framework in Frameworks */,
+				2CE4906515A6291D00FB2F90 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE4905115A6291D00FB2F90 = {
+			isa = PBXGroup;
+			children = (
+				2CE4906615A6291D00FB2F90 /* hogehoge */,
+				2CE4905F15A6291D00FB2F90 /* Frameworks */,
+				2CE4905D15A6291D00FB2F90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE4905D15A6291D00FB2F90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4905C15A6291D00FB2F90 /* hogehoge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE4905F15A6291D00FB2F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4906015A6291D00FB2F90 /* UIKit.framework */,
+				2CE4906215A6291D00FB2F90 /* Foundation.framework */,
+				2CE4906415A6291D00FB2F90 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CE4906615A6291D00FB2F90 /* hogehoge */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4906F15A6291D00FB2F90 /* AppDelegate.h */,
+				2CE4907015A6291D00FB2F90 /* AppDelegate.m */,
+				2CE4907215A6291D00FB2F90 /* MainStoryboard.storyboard */,
+				2CE4907515A6291D00FB2F90 /* ViewController.h */,
+				2CE4907615A6291D00FB2F90 /* ViewController.m */,
+				2CE4906715A6291D00FB2F90 /* Supporting Files */,
+			);
+			path = hogehoge;
+			sourceTree = "<group>";
+		};
+		2CE4906715A6291D00FB2F90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CE4906815A6291D00FB2F90 /* hogehoge-Info.plist */,
+				2CE4906915A6291D00FB2F90 /* InfoPlist.strings */,
+				2CE4906C15A6291D00FB2F90 /* main.m */,
+				2CE4906E15A6291D00FB2F90 /* hogehoge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE4905B15A6291D00FB2F90 /* hogehoge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE4907A15A6291D00FB2F90 /* Build configuration list for PBXNativeTarget "hogehoge" */;
+			buildPhases = (
+				2CE4905815A6291D00FB2F90 /* Sources */,
+				2CE4905915A6291D00FB2F90 /* Frameworks */,
+				2CE4905A15A6291D00FB2F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hogehoge;
+			productName = hogehoge;
+			productReference = 2CE4905C15A6291D00FB2F90 /* hogehoge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE4905315A6291D00FB2F90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2CE4905615A6291D00FB2F90 /* Build configuration list for PBXProject "hogehoge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CE4905115A6291D00FB2F90;
+			productRefGroup = 2CE4905D15A6291D00FB2F90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE4905B15A6291D00FB2F90 /* hogehoge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE4905A15A6291D00FB2F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE4906B15A6291D00FB2F90 /* InfoPlist.strings in Resources */,
+				2CE4907415A6291D00FB2F90 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE4905815A6291D00FB2F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE4906D15A6291D00FB2F90 /* main.m in Sources */,
+				2CE4907115A6291D00FB2F90 /* AppDelegate.m in Sources */,
+				2CE4907715A6291D00FB2F90 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CE4906915A6291D00FB2F90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE4906A15A6291D00FB2F90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2CE4907215A6291D00FB2F90 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CE4907315A6291D00FB2F90 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CE4907815A6291D00FB2F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CE4907915A6291D00FB2F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE4907B15A6291D00FB2F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hogehoge/hogehoge-Prefix.pch";
+				INFOPLIST_FILE = "hogehoge/hogehoge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CE4907C15A6291D00FB2F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hogehoge/hogehoge-Prefix.pch";
+				INFOPLIST_FILE = "hogehoge/hogehoge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE4905615A6291D00FB2F90 /* Build configuration list for PBXProject "hogehoge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE4907815A6291D00FB2F90 /* Debug */,
+				2CE4907915A6291D00FB2F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE4907A15A6291D00FB2F90 /* Build configuration list for PBXNativeTarget "hogehoge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE4907B15A6291D00FB2F90 /* Debug */,
+				2CE4907C15A6291D00FB2F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE4905315A6291D00FB2F90 /* Project object */;
+}
